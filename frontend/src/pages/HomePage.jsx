@@ -27,7 +27,7 @@ function HomePage() {
 
             <div className="flex flex-col">
               <span className="font-black text-xl bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent font-mono tracking-wider">
-                Talent IQ
+                code-hire
               </span>
               <span className="text-xs text-base-content/60 font-medium -mt-1">Code Together</span>
             </div>
@@ -63,7 +63,7 @@ function HomePage() {
 
             <p className="text-xl text-base-content/70 leading-relaxed max-w-xl">
               The ultimate platform for collaborative coding interviews and pair programming.
-              Connect face-to-face, code in real-time, and ace your technical interviews.
+              Connect face-to-face, code in real-time.
             </p>
 
             {/* FEATURE PILLS */}
@@ -82,7 +82,7 @@ function HomePage() {
               </div>
             </div>
 
-            {/* CTA Buttons */}
+            {/* CTA Buttons
             <div className="flex flex-wrap gap-4">
               <SignInButton mode="modal">
                 <button className="btn btn-primary btn-lg">
@@ -95,16 +95,16 @@ function HomePage() {
                 <VideoIcon className="size-5" />
                 Watch Demo
               </button>
-            </div>
+            </div> */}
 
             {/* STATS */}
             <div className="stats stats-vertical lg:stats-horizontal bg-base-100 shadow-lg">
               <div className="stat">
-                <div className="stat-value text-primary">10K+</div>
+                <div className="stat-value text-primary">100+</div>
                 <div className="stat-title">Active Users</div>
               </div>
               <div className="stat">
-                <div className="stat-value text-secondary">50K+</div>
+                <div className="stat-value text-secondary">100+</div>
                 <div className="stat-title">Sessions</div>
               </div>
               <div className="stat">
